@@ -1,0 +1,29 @@
+#trans-alert { 
+    /*Contenedor de la alerta*/
+    position: fixed;
+    width: 25%;
+    left: 100%;
+    bottom: 10px;
+    animation-name: example;
+    animation-duration: 1.8s;
+    z-index: 10;
+  }
+  @keyframes example {
+    from {
+      left: 100%;
+      opacity: 45;
+    }
+    to {
+      left: 29%;
+      opacity: 0;
+    }
+  }
+  
+  h5 {
+    /*LETRA DE LA ALERTA*/
+    text-align: center;
+  }
+  
+  /* #alerts{
+    background-color: blue;
+  } */
